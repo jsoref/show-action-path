@@ -1,0 +1,14 @@
+name: 'Test'
+description: 'Test GITHUB_ACTION_PATH'
+author: 'jsoref'
+branding:
+  icon: 'check-circle'
+  color: 'white'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: debug
+      shell: bash
+      run: |
+        env
