@@ -6,15 +6,15 @@ jobs:
   action-path:
     runs-on: ubuntu-latest
     steps:
-      - uses: jsoref/show-action-path@main
+      - uses: jsoref/show-action-path@ambig/uous
   action-subpath:
     runs-on: ubuntu-latest
     steps:
-      - uses: jsoref/show-action-path/test@main
+      - uses: jsoref/show-action-path/test@ambig/uous
   action-nested-subpath:
     runs-on: ubuntu-latest
     steps:
-      - uses: jsoref/show-action-path/test/nested@main
+      - uses: jsoref/show-action-path/test/nested@ambig/uous
   local-path:
     runs-on: ubuntu-latest
     steps:
